@@ -45,7 +45,7 @@ const Services = (props: any) => {
               return (
                 <ServiceEven
                   title={item.title}
-                  img={urlFor(item.serviceimage).url() as any}
+                  img={`${urlFor(item.serviceimage).url() as any}&fm=webp`}
                   slug={item.slug.current}
                   text={item.excerpt}
                   key={index}
@@ -58,7 +58,7 @@ const Services = (props: any) => {
               return (
                 <ServiceOdd
                   title={item.title}
-                  img={urlFor(item.serviceimage).url() as any}
+                  img={`${urlFor(item.serviceimage).url() as any}&fm=webp`}
                   slug={item.slug.current}
                   text={item.excerpt}
                   key={index}

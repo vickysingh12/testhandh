@@ -27,7 +27,6 @@ const RateCard = () => {
             <Image
               loading="lazy"
               src="/assets/services-odd1.svg"
-              
               alt="logo"
               height={460}
               width={544}
@@ -40,7 +39,6 @@ const RateCard = () => {
             <Image
               loading="lazy"
               src="/assets/services-odd1.svg"
-              
               alt="logo"
               height={460}
               width={544}

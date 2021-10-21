@@ -30,6 +30,7 @@ const ClientsServicePage = () => {
                 height={80}
                 width={150}
                 placeholder="blur"
+                quality={75}
               />
             </div>
           </div>
