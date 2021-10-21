@@ -36,12 +36,12 @@ const ServiceDetailBanner = (props: any) => {
           <div className="mt-10 xl:mt-0">
             <Image
               loading="lazy"
-              src={urlFor(props.service.serviceimage).url() as any}
+              src={`${urlFor(props.service.serviceimage).url() as any}&fm=webp`}
               alt="img"
               height={317}
               width={375}
               layout="responsive"
-              quality={100}
+              quality={75}
             />
           </div>
         </div>

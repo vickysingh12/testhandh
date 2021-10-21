@@ -38,12 +38,12 @@ const ArticleHeader = (props: any) => {
             props.articleAuthor?.image &&
 
             <Image
-            loading="lazy"
-              src={urlFor(props.articleDetails.image).url() as any}
+              loading="lazy"
+              src={`${urlFor(props.articleDetails.image).url() as any}&fm=webp`}
               layout="fill"
               objectFit="cover"
               alt="author"
-              quality={100}
+              quality={75}
               
             />
           }
@@ -66,12 +66,12 @@ const ArticleHeader = (props: any) => {
 
           <Image
             loading="lazy"
-            src={urlFor(props.articleAuthor.image).url() as any}
+            src={`${urlFor(props.articleAuthor.image).url() as any}&fm=webp`}
             alt="user-img"
             width={40}
             height={40}
             className="rounded"
-            quality={100}
+            quality={75}
             
           />
           }

@@ -15,13 +15,12 @@ const WorkDetailTestimonial = ({ testimonials }: any) => {
             {testimonials?.testimonialwriterimage && (
               <Image
                 loading="lazy"
-                src={urlFor(testimonials?.testimonialwriterimage).url() as any}
+                src={`${urlFor(testimonials?.testimonialwriterimage).url() as any}&fm=webp`}
                 alt="feature-img"
                 height={60}
                 width={60}
                 layout="fixed"
-                quality={100}
-                
+                quality={75}
               />
             )}
           </div>

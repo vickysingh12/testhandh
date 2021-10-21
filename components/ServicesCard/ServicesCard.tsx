@@ -14,7 +14,7 @@ const ServicesCard = (props: any) => {
           height={200}
           width={`${props.width}`}
           layout="fixed"
-          quality={100}
+          quality={75}
         />
       </div>
       <div className="card-content">

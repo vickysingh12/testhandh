@@ -10,25 +10,25 @@ const ProjectDetailFeaturedImg = ({ ImageForDesktop, ImageForMobile }: any) => {
         <div className="hidden xl:block">
           <Image
             loading="lazy"
-            src={urlFor(ImageForDesktop).url() as any}
+            src={`${urlFor(ImageForDesktop).url() as any}&fm=webp`}
             alt="feature-img"
             layout="responsive"
             height="70"
             width="100"
-            quality={100}
+            quality={75}
             
           />
         </div>
         <div className="block xl:hidden">
           <Image
             loading="lazy"
-            src={urlFor(ImageForMobile).url() as any}
+            src={`${urlFor(ImageForMobile).url() as any}&fm=webp`}
             alt="feature-img"
             className="img-fluid"
             height={400}
             width={300}
             layout="responsive"
-            quality={100}
+            quality={75}
             
           />
         </div>

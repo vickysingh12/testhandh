@@ -62,14 +62,13 @@ const WorkDetailTab = ({ tabimages }: any) => {
                       <div key={index} className={`${styles['tab-img']} mr-10`}>
                         <Image
                           loading="lazy"
-                          src={urlFor(item).url() as any}
+                          src={`${urlFor(item).url() as any}&fm=webp`}
                           alt="img"
                           height={540}
                           width={257.1}
                           layout="fixed"
                           className={styles['tab-imgs']}
-                          
-                          quality={100}
+                          quality={75}
                         />
                       </div>
                     )
@@ -87,15 +86,14 @@ const WorkDetailTab = ({ tabimages }: any) => {
                         <SwiperContent key={index}>
                           <Image
                             loading="lazy"
-                            src={urlFor(item).url() as any}
+                            src={`${urlFor(item).url() as any}&fm=webp`}
                             alt="img"
                             height={448}
                             width={213}
                             layout="fixed"
                             className={styles['tab-imgs']}
-                            
                             key={index}
-                            quality={100}
+                            quality={75}
                           />
                         </SwiperContent>
                       </SwiperSlide>
@@ -122,14 +120,13 @@ const WorkDetailTab = ({ tabimages }: any) => {
                       >
                         <Image
                           loading="lazy"
-                          src={urlFor(item).url() as any}
+                          src={`${urlFor(item).url() as any}&fm=webp`}
                           alt="img"
                           height={540}
                           width={257.1}
                           layout="fixed"
                           className={styles['tab-imgs']}
-                          
-                          quality={100}
+                          quality={75}
                         />
                       </div>
                     )
@@ -146,14 +143,13 @@ const WorkDetailTab = ({ tabimages }: any) => {
                         <SwiperContent>
                           <Image
                             loading="lazy"
-                            src={urlFor(item).url() as any}
+                            src={`${urlFor(item).url() as any}&fm=webp`}
                             alt="img"
                             height={448}
                             width={213}
                             layout="fixed"
                             className={styles['tab-imgs']}
-                            
-                            quality={100}
+                            quality={75}
                           />
                         </SwiperContent>
                       </SwiperSlide>

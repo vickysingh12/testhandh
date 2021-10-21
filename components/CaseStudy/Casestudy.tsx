@@ -43,13 +43,13 @@ const CaseStudy = () => {
           <div className="col-1">
             <div className="mobile-col block xl:hidden">
               <Image
-            loading="lazy"
+                loading="lazy"
                 src="/assets/download-case.webp"
                 layout="responsive"
                 height={500}
                 width={611}
                 alt="img"
-                quality={100}
+                quality={75}
                 
               />
             </div>
@@ -122,14 +122,13 @@ const CaseStudy = () => {
           </div>
           <div className="col-2 hidden xl:block">
             <Image
-            loading="lazy"
+              loading="lazy"
               src="/assets/download-case.webp"
               layout="fixed"
               height={430}
               width={577}
               alt="img"
-              quality={100}
-              
+              quality={75}
             />
           </div>
         </div>

@@ -24,13 +24,12 @@ const WorkSolutions = ({ solutiongridheading, solutiongrid }: any) => {
                 <div key={index} className="">
                   <Image
                     loading="lazy"
-                    src={urlFor(element).url() as any}
+                    src={`${urlFor(element).url() as any}&fm=webp`}
                     alt="img"
                     height={221}
                     width={394}
                     layout="responsive"
-                    quality={100}
-                    
+                    quality={75}
                   />
                 </div>
               )

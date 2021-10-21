@@ -50,11 +50,11 @@ const ArticleForm = () => {
           </h1>
           <div className="mb-10 flex items-start">
             <Image
-            loading="lazy"
+              loading="lazy"
               src="/assets/kaj.png"
               width={100}
               height={100}
-              quality={100}
+              quality={75}
               alt="avatar"
               className="rounded-full"
               
