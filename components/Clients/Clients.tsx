@@ -88,7 +88,7 @@ const Clients = (props: any) => {
               <Image
                 loading="lazy"
                 alt="img"
-                src="/assets/client/Client-6.png"
+                src="/assets/client/Client-6.webp"
                 height={64}
                 width={170}
                 quality={75}

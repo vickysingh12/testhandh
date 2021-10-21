@@ -7,7 +7,7 @@ export default function AboutPagethirdSection() {
         <div className="mb-8 md:mb-0">
           <div className="md:hidden relative aspect-w-4 aspect-h-0 xs:aspect-w-16 xs:aspect-h-0 w-full">
             <Image
-            loading="lazy"
+              loading="lazy"
               quality={75}
               src="/assets/bg.webp"
               layout="fill"
@@ -21,7 +21,7 @@ export default function AboutPagethirdSection() {
           </div>
           <div className="hidden aboutImage md:block top-0 left-0 w-1/2 h-full">
             <Image
-            loading="lazy"
+              loading="lazy"
               quality={75}
               src="/assets/bg.webp"
               objectFit="cover"

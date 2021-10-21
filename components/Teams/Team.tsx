@@ -101,7 +101,7 @@ const Teams = ({ slider }: any) => {
                   return (
                     <SwiperSlide>
                       <Items
-                        src={urlFor(item.image).url() as any}
+                        src={`${urlFor(item.image).url() as any}&fm=webp`}
                         text={item.title}
                       />
                     </SwiperSlide>
@@ -112,7 +112,7 @@ const Teams = ({ slider }: any) => {
                   return (
                     <SwiperSlide>
                       <Items
-                        src={urlFor(item.image).url() as any}
+                        src={`${urlFor(item.image).url() as any}&fm=webp`}
                         text={item.title}
                       />
                     </SwiperSlide>
@@ -124,8 +124,8 @@ const Teams = ({ slider }: any) => {
                 slider.map((item: any) => {
                   return (
                     <Items
-                      src={urlFor(item.image).url() as any}
-                      text={item.title}
+                    src={`${urlFor(item.image).url() as any}&fm=webp`}
+                    text={item.title}
                     />
                   )
                 })}
@@ -133,8 +133,8 @@ const Teams = ({ slider }: any) => {
                 slider.map((item: any) => {
                   return (
                     <Items
-                      src={urlFor(item.image).url() as any}
-                      text={item.title}
+                    src={`${urlFor(item.image).url() as any}&fm=webp`}
+                    text={item.title}
                     />
                   )
                 })}
