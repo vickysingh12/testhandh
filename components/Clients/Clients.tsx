@@ -7,6 +7,9 @@ import Client5 from '../../public/assets/client/Client-5.webp'
 import Client6 from '../../public/assets/client/Client-6.webp'
 
 const Clients = (props: any) => {
+
+  console.log('client')
+  
   return (
     <section className="clients">
       <div className="grid grid-cols-1 sm:grid-cols-2">
