@@ -3,7 +3,7 @@ import styles from './clients.module.scss'
 import Client1 from '../../public/assets/client/Client-1.webp'
 import Client3 from '../../public/assets/client/Client-3.webp'
 import Client4 from '../../public/assets/client/Client-4.webp'
-import Client5 from '../../public/assets/client/Client-5.webp'
+import Client5 from '../../public/assets/client/client-5.webp'
 import Client6 from '../../public/assets/client/Client-6.webp'
 
 const Clients = (props: any) => {
