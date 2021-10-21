@@ -18,7 +18,7 @@ const ServiceOdd = (props: any) => {
                 height={430}
                 width={577}
                 layout="responsive"
-                quality={100}
+                quality={75}
                 placeholder="blur"
                 blurDataURL={props.img}
               />
@@ -63,7 +63,7 @@ const ServiceOdd = (props: any) => {
                 height={430}
                 width={577}
                 layout="intrinsic"
-                quality={100}
+                quality={75}
               />
             )}
           </div>

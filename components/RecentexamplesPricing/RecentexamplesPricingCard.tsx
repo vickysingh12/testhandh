@@ -24,13 +24,13 @@ const RecentexamplesPricingCard = ({
         <Image
           loading="lazy"
           alt="img"
-          quality={100}
+          quality={75}
           layout="responsive"
           width={100}
           height={50}
-          src={urlFor(item.image).url() as any}
+          src={`${urlFor(item.image).url() as any}&fm=webp`}
           placeholder="blur"
-          blurDataURL={urlFor(item.image).url() as any}
+          blurDataURL={`${urlFor(item.image).url() as any}&fm=webp`}
         />
       </div>
       <h4 className="text-xl leading-loose-110 lg:leading-loose-medium lg:text-2xl font-semibold mt-4">

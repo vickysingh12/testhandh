@@ -28,14 +28,14 @@ const Card = (props: CardPropsInterface) => {
           {
             image && 
             <Image
-            loading="lazy"
-              src={urlFor(image).url() as any}
+              src={`${urlFor(image).url() as any}&fm=webp`}
               alt="card"
               layout="fill"
               objectFit="cover"
-              quality={100}
+              quality={75}
               placeholder="blur"
-              blurDataURL={urlFor(image).url() as any}
+              loading="lazy"
+              blurDataURL={`${urlFor(image).url() as any}&fm=webp`}
             />
           }
         </div>

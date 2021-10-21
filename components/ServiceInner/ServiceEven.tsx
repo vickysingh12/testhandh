@@ -16,7 +16,7 @@ const ServiceEven = (props: any) => {
                 height={430}
                 width={600}
                 layout="responsive"
-                quality={100}
+                quality={75}
                 placeholder="blur"
                 blurDataURL={props.img}
               />

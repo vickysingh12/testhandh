@@ -17,9 +17,8 @@ const ClientsServicePage = () => {
                   src={'/assets/client/Client-1.webp'}
                   height={96}
                   width={104}
-                  quality={100}
+                  quality={75}
                   placeholder="blur"
-                  blurDataURL={'/assets/client/Client-1.webp'}
                 />
               }
             </div>
@@ -31,7 +30,6 @@ const ClientsServicePage = () => {
                 height={80}
                 width={150}
                 placeholder="blur"
-                blurDataURL="/assets/iconz.svg"
               />
             </div>
           </div>
@@ -47,9 +45,8 @@ const ClientsServicePage = () => {
                   src={'/assets/client/Client-3.webp'}
                   height={40}
                   width={166}
-                  quality={100}
+                  quality={75}
                   placeholder="blur"
-                  blurDataURL={'/assets/client/Client-3.webp'}
                 />
               }
             </div>
@@ -61,9 +58,8 @@ const ClientsServicePage = () => {
                   src={'/assets/client/Client-4.webp'}
                   height={64}
                   width={71}
-                  quality={100}
+                  quality={75}
                   placeholder="blur"
-                  blurDataURL={'/assets/client/Client-4.webp'}
                 />
               }
             </div>
@@ -80,9 +76,8 @@ const ClientsServicePage = () => {
                   src={'/assets/client/Client-5.webp'}
                   height={50}
                   width={135}
-                  quality={100}
+                  quality={75}
                   placeholder="blur"
-                  blurDataURL={'/assets/client/Client-5.webp'}
                 />
               }
             </div>
@@ -91,12 +86,11 @@ const ClientsServicePage = () => {
                 <Image
                   alt="img"
                   loading="lazy"
-                  src={'/assets/client/Client-6.png'}
+                  src={'/assets/client/Client-6.webp'}
                   height={64}
                   width={170}
-                  quality={100}
+                  quality={75}
                   placeholder="blur"
-                  blurDataURL={'/assets/client/Client-6.png'}
                 />
               }
             </div>

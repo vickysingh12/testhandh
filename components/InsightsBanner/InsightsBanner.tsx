@@ -58,11 +58,11 @@ const InsightsBanner = ({ articles }: { articles: any }) => {
         <div className="relative aspect-w-4 aspect-h-5 xs:aspect-h-4 sm:aspect-h-2">
           <Image
             loading="lazy"
-            src={urlFor(selectedArticle.image).url() as any}
+            src={`${urlFor(selectedArticle.image).url() as any}&fm=webp`}
             layout="fill"
             alt="girl sitting with cardboard in her right hand"
             objectFit="cover"
-            quality={100}
+            quality={75}
           />
         </div>
       </div>
@@ -83,12 +83,12 @@ const InsightsBanner = ({ articles }: { articles: any }) => {
             <div className="flex mb-0 items-center gap-2 xs:gap-4">
               <Image
                 loading="lazy"
-                src={urlFor(articles.author[0].image).url() as any}
+                src={`${urlFor(articles.author[0].image).url() as any}&fm=webp`}
                 alt="user-img"
                 width={isMobile ? 32 : 40}
                 height={isMobile ? 32 : 40}
                 className="rounded"
-                quality={100}
+                quality={75}
               />
               <span className="font-normal text-103 md:text-base">
                 {articles.author[0].name}
@@ -117,10 +117,10 @@ const InsightsBanner = ({ articles }: { articles: any }) => {
           <div className="absolute right-0 top-0 h-full w-110">
             <Image
               loading="lazy"
-              src={urlFor(selectedArticle.image).url() as any}
+              src={`${urlFor(selectedArticle.image).url() as any}&fm=webp`}
               layout="fill"
               alt="girl sitting with cardboard in her right hand"
-              quality={100}
+              quality={75}
             />
           </div>
         </div>

@@ -42,9 +42,8 @@ const WhatNext = () => {
                     width={30}
                     height={30}
                     alt="img"
-                    quality={100}
+                    quality={75}
                     placeholder="blur"
-                    blurDataURL={item.img}
                   />
                 </div>
                 <h3 className="text-xl font-bold md:text-102 mb-2">

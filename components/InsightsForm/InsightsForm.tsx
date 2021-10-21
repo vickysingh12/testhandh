@@ -14,9 +14,8 @@ const InsightsForm = () => {
               height={300}
               src="/assets/home/hero-img.webp"
               alt="cartoon of people standing in a lab"
-              quality={100}
+              quality={75}
               placeholder="blur"
-              blurDataURL="/assets/home/hero-img.webp"
             />
           </div>
         </div>

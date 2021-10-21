@@ -32,9 +32,8 @@ const RateCard = () => {
               height={460}
               width={544}
               layout="fixed"
-              quality={100}
+              quality={75}
               placeholder="blur"
-              blurDataURL="/assets/services-odd1.svg"
             />
           </div>
           <div className="block xl:hidden rate-img mt-5 xl:mt-0">
@@ -46,9 +45,8 @@ const RateCard = () => {
               height={460}
               width={544}
               layout="responsive"
-              quality={100}
+              quality={75}
               placeholder="blur"
-              blurDataURL="/assets/services-odd1.svg"
             />
           </div>
         </div>
