@@ -1,0 +1,75 @@
+@import '../../styles/colors.scss';
+
+.header {
+  background: transparent;
+  
+
+  nav {
+    a {
+      &:not(:last-child) {
+
+        &:hover {
+          &::after {
+            content: "";
+            display: block;
+            height: 3px;
+            border-radius: 5px;
+            position: absolute;
+            background-color: rgb(52, 251, 213);
+            width: 100%;
+            top: 37px;
+            animation-name: linkanimation;
+            animation-duration: .5s;
+            animation-fill-mode: forwards;
+          }
+        }
+      }
+    }
+
+  }
+}
+
+
+
+.header,
+.header .header-style {
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+}
+
+.header .header-style {
+  padding: 48px 0 24px;
+}
+
+.header-style {
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+
+
+.contact-button {
+  line-height: 23px;
+  height: 40px;
+  width: 93px;
+  left: 16px;
+  top: 0px;
+  border-radius: 4px;
+  padding: 8px 16px;
+}
+
+@media (max-width: 768px) {
+  .header .header-style {
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    padding: 24px 32px;
+  }
+}
+
+
+@keyframes linkanimation {
+  from {width: 0px;}
+  to {width: 100%;}
+}
