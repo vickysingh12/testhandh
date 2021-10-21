@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import Button from '../Buttons/Button'
+import heroimg from '../../public/assets/home/hero-img.webp'
 
 const InsightsForm = () => {
   return (
@@ -12,7 +13,7 @@ const InsightsForm = () => {
               objectFit="cover"
               width={400}
               height={300}
-              src="/assets/home/hero-img.webp"
+              src={heroimg}
               alt="cartoon of people standing in a lab"
               quality={75}
               placeholder="blur"

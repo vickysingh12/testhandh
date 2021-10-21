@@ -44,7 +44,7 @@ const ScheduleMeeting = () => {
                 height={500}
                 width={500}
                 alt="logo"
-                quality={100}
+                quality={75}
                 
               />
             </div>

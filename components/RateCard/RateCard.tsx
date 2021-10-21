@@ -32,7 +32,6 @@ const RateCard = () => {
               width={544}
               layout="fixed"
               quality={75}
-              placeholder="blur"
             />
           </div>
           <div className="block xl:hidden rate-img mt-5 xl:mt-0">
@@ -44,7 +43,6 @@ const RateCard = () => {
               width={544}
               layout="responsive"
               quality={75}
-              placeholder="blur"
             />
           </div>
         </div>

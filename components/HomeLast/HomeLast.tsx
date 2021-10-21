@@ -2,6 +2,10 @@ import Image from 'next/image'
 import HeadingMedium from '../Headings/HeadingMedium'
 import Link from 'next/link'
 import styles from './HomeLast.module.scss'
+import footerimg1 from '../../public/assets/footer/img-1.webp'
+import footerimg2 from '../../public/assets/footer/img-2.webp'
+import footerimg3 from '../../public/assets/footer/img-3.webp'
+import footerimg4 from '../../public/assets/footer/img-4.webp'
 
 export default function LastSection() {
   return (
@@ -48,14 +52,14 @@ export default function LastSection() {
             <div className="flex-1 md:p-8">
               <Image
                 loading="lazy"
-                src="/assets/footer/img-1.webp"
+                src={footerimg1}
                 alt="image"
                 height={120}
                 width={158.22}
                 quality={75}
                 layout="fixed"
                 placeholder="blur"
-              />
+              /> 
               <div>
                 <h5 className="font-semibold text-2xl py-2 mt-3">Discover</h5>
                 <ul className="font-light text-base leading-8">
@@ -72,14 +76,14 @@ export default function LastSection() {
             <div className="flex-1 md:p-8">
               <Image
                 loading="lazy"
-                src="/assets/footer/img-2.webp"
+                src={footerimg2}
                 alt="image"
                 height={120}
                 width={170.89}
                 layout="fixed"
                 quality={75}
                 placeholder="blur"
-              />
+              />  
               <div>
                 <h5 className="font-semibold text-2xl py-2 mt-3">Create</h5>
 
@@ -97,7 +101,7 @@ export default function LastSection() {
               <Image
                 loading="lazy"
                 quality={75}
-                src="/assets/footer/img-3.webp"
+                src={footerimg3}
                 alt="image"
                 height={120}
                 width={215.64}
@@ -119,7 +123,7 @@ export default function LastSection() {
             <div className="flex-1 md:p-8">
               <Image
                 loading="lazy"
-                src="/assets/footer/img-4.webp"
+                src={footerimg4}
                 alt="image"
                 height={120}
                 width={170.7}

@@ -1,5 +1,10 @@
 import Image from 'next/image'
 import styles from './clients.module.scss'
+import Client1 from '../../public/assets/client/Client-1.webp'
+import Client3 from '../../public/assets/client/Client-3.webp'
+import Client4 from '../../public/assets/client/Client-4.webp'
+import Client5 from '../../public/assets/client/Client-5.webp'
+import Client6 from '../../public/assets/client/Client-6.webp'
 
 const Clients = (props: any) => {
   return (
@@ -26,7 +31,7 @@ const Clients = (props: any) => {
               <Image
                 loading="lazy"
                 alt="img"
-                src="/assets/client/Client-1.webp"
+                src={Client1}
                 height={96}
                 width={104}
                 quality={75}
@@ -40,7 +45,6 @@ const Clients = (props: any) => {
                 height={80}
                 width={150}
                 quality={75}
-                placeholder="blur"
                 alt="img"
               />
             </div>
@@ -53,7 +57,7 @@ const Clients = (props: any) => {
               <Image
                 loading="lazy"
                 alt="img"
-                src="/assets/client/Client-3.webp"
+                src={Client3}
                 height={40}
                 width={166}
                 quality={75}
@@ -64,7 +68,7 @@ const Clients = (props: any) => {
               <Image
                 loading="lazy"
                 alt="img"
-                src="/assets/client/Client-4.webp"
+                src={Client4}
                 height={64}
                 width={71}
                 quality={75}
@@ -77,7 +81,7 @@ const Clients = (props: any) => {
               <Image
                 loading="lazy"
                 alt="img"
-                src="/assets/client/Client-5.webp"
+                src={Client5}
                 height={50}
                 width={135}
                 quality={75}
@@ -88,7 +92,7 @@ const Clients = (props: any) => {
               <Image
                 loading="lazy"
                 alt="img"
-                src="/assets/client/Client-6.webp"
+                src={Client6}
                 height={64}
                 width={170}
                 quality={75}

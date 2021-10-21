@@ -53,7 +53,6 @@ const ScheduleCall = (props: any) => {
                 layout="responsive"
                 height={props.from == 'contact' ? 293 : 500}
                 width={props.from == 'contact' ? 311 : 500}
-                placeholder="blur"
                 quality={75}
               />
             </div>
@@ -88,7 +87,6 @@ const ScheduleCall = (props: any) => {
                 layout="responsive"
                 height={437}
                 width={463}
-                placeholder="blur"
                 quality={75}
               />
             </div>

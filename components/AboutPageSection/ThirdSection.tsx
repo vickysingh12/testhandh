@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import bg from '../../public/assets/bg.webp'
 
 export default function AboutPagethirdSection() {
   return (
@@ -9,7 +10,7 @@ export default function AboutPagethirdSection() {
             <Image
               loading="lazy"
               quality={75}
-              src="/assets/bg.webp"
+              src={bg}
               layout="fill"
               objectFit="fill"
               objectPosition="right"
@@ -23,7 +24,7 @@ export default function AboutPagethirdSection() {
             <Image
               loading="lazy"
               quality={75}
-              src="/assets/bg.webp"
+              src={bg}
               objectFit="cover"
               layout="fill"
               objectPosition="right"

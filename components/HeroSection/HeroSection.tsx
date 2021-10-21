@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import HeadingLarge from '../Headings/HeadingLarge'
 import Button from '../Buttons/Button'
+import heroimg from '../../public/assets/home/hero-img.webp'
 
 export default function HeroSection() {
   return (
@@ -8,7 +9,7 @@ export default function HeroSection() {
       <div className="grid grid-cols-1 sm:grid-cols-2 items-center">
         <div className="block sm:hidden">
           <Image
-            src="/assets/home/hero-img.webp"
+            src={heroimg}
             alt="people-researching-websites"
             height={317}
             width={375}
@@ -33,7 +34,7 @@ export default function HeroSection() {
         <div className="hidden sm:block">
           <Image
             loading="lazy"
-            src="/assets/home/hero-img.webp"
+            src={heroimg}
             className="object-fill"
             alt="people-researching-websites"
             height="570"
