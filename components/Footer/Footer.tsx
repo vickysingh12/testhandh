@@ -95,12 +95,12 @@ export default function Footer(props: IFooterProps) {
           </div>
         </div>
       </footer>
-      {/* <script
+      <script
         type="text/javascript"
         id="hs-script-loader"
         async
         src="https://js.hs-scripts.com/8797205.js"
-      ></script> */}
+      ></script>
     </>
   )
 }
