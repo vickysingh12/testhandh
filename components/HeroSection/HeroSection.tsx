@@ -15,7 +15,6 @@ export default function HeroSection() {
             width={375}
             layout="responsive"
             loading="lazy"
-            placeholder="blur"
             quality={75}
           />
         </div>
